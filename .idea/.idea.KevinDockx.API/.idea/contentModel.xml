@@ -12,7 +12,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="AuthorsController.cs" t="Include" />
-          <e p="WeatherForecastController.cs" t="Include" />
+          <e p="CoursesController.cs" t="Include" />
         </e>
         <e p="DbContexts" t="Include">
           <e p="CourseLibraryContext.cs" t="Include" />
@@ -32,6 +32,9 @@
         </e>
         <e p="Models" t="Include">
           <e p="AuthorDto.cs" t="Include" />
+          <e p="AuthorForCreationDto.cs" t="Include" />
+          <e p="CourseDto.cs" t="Include" />
+          <e p="CourseForCreationDto.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -40,10 +43,16 @@
             </e>
           </e>
         </e>
-        <e p="Profiles" t="Include" />
+        <e p="Profiles" t="Include">
+          <e p="AuthorsProfile.cs" t="Include" />
+          <e p="CoursesProfile.cs" t="Include" />
+        </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="ResourceParameters" t="Include">
+          <e p="AuthorsResourceParameters.cs" t="Include" />
         </e>
         <e p="Services" t="Include">
           <e p="CourseLibraryRepository.cs" t="Include" />
