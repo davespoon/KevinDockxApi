@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using AutoMapper;
+using KevinDockx.API.Entities;
 using KevinDockx.API.Models;
 using KevinDockx.API.ResourceParameters;
 using KevinDockx.API.Services;
@@ -47,7 +48,7 @@ namespace KevinDockx.API.Controllers
         [HttpPost]
         public ActionResult<AuthorDto> CreateAuthor(AuthorForCreationDto author)
         {
-            var authorEntity = _mapper.Map<Entities.Author>(author);
+            var authorEntity = _mapper.Map<Author>(author);
 
             _courseLibraryRepository.AddAuthor(authorEntity);
             _courseLibraryRepository.Save();
@@ -55,6 +56,14 @@ namespace KevinDockx.API.Controllers
             var authorToReturn = _mapper.Map<AuthorDto>(authorEntity);
 
             return CreatedAtRoute("GetAuthor", new {authorId = authorEntity.Id}, authorToReturn);
+        }
+
+
+        [HttpOptions]
+        public IActionResult GetAuthorsOptions()
+        {
+            Response.Headers.Add("Allow", "GET,OPTIONS,POST");
+            return Ok();
         }
     }
 }

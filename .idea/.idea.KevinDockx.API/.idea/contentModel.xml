@@ -11,6 +11,7 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="AuthorCollectionsController.cs" t="Include" />
           <e p="AuthorsController.cs" t="Include" />
           <e p="CoursesController.cs" t="Include" />
         </e>
@@ -22,6 +23,7 @@
           <e p="Course.cs" t="Include" />
         </e>
         <e p="Helpers" t="Include">
+          <e p="ArrayModelBinder.cs" t="Include" />
           <e p="DateTimeOffsetExtensions.cs" t="Include" />
         </e>
         <e p="KevinDockx.API.csproj" t="IncludeRecursive" />
@@ -59,6 +61,9 @@
           <e p="ICourseLibraryRepository.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
+        <e p="ValidationAttributes" t="Include">
+          <e p="CourseTitleMustBeDifferentFromDescriptionAttribute.cs" t="Include" />
+        </e>
         <e p="WeatherForecast.cs" t="Include" />
       </e>
       <e p="KevinDockx.API.sln" t="IncludeFlat" />
