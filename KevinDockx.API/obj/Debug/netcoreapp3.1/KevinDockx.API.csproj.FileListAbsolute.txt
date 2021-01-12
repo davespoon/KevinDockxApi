@@ -1,6 +1,5 @@
 D:\Projects\RiderProjects\KevinDockx.API\KevinDockx.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 D:\Projects\RiderProjects\KevinDockx.API\KevinDockx.API\bin\Debug\netcoreapp3.1\appsettings.json
-D:\Projects\RiderProjects\KevinDockx.API\KevinDockx.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 D:\Projects\RiderProjects\KevinDockx.API\KevinDockx.API\bin\Debug\netcoreapp3.1\KevinDockx.API.exe
 D:\Projects\RiderProjects\KevinDockx.API\KevinDockx.API\bin\Debug\netcoreapp3.1\KevinDockx.API.deps.json
 D:\Projects\RiderProjects\KevinDockx.API\KevinDockx.API\bin\Debug\netcoreapp3.1\KevinDockx.API.runtimeconfig.json
@@ -54,3 +53,4 @@ D:\Projects\RiderProjects\KevinDockx.API\KevinDockx.API\bin\Debug\netcoreapp3.1\
 D:\Projects\RiderProjects\KevinDockx.API\KevinDockx.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Projects\RiderProjects\KevinDockx.API\KevinDockx.API\bin\Debug\netcoreapp3.1\AutoMapper.dll
 D:\Projects\RiderProjects\KevinDockx.API\KevinDockx.API\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Projects\RiderProjects\KevinDockx.API\KevinDockx.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\KevinDockx.API.styles.css

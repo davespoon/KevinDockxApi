@@ -7,13 +7,13 @@ namespace KevinDockx.API.ValidationAttributes
     {
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
         {
-            var course = validationContext.ObjectInstance as CourseForCreationDto;
+            var course = validationContext.ObjectInstance as CourseForManipulationDto;
 
             if (course.Title == course.Description)
 
             {
                 return new ValidationResult(ErrorMessage,
-                    new[] {nameof(CourseForCreationDto)});
+                    new[] {nameof(CourseForManipulationDto)});
             }
 
             return ValidationResult.Success;
