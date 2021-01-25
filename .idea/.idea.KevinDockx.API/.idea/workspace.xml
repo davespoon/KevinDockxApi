@@ -13,35 +13,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9e2a812-4801-4e23-90b1-d0b0e882f531" name="Default Changelist" comment="Init">
-      <change afterPath="$PROJECT_DIR$/KevinDockx.API.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KevinDockx.API/Models/CourseForManipulationDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KevinDockx.API/Models/CourseForUpdateDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.KevinDockx.API/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KevinDockx.API/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.KevinDockx.API/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KevinDockx.API/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="e9e2a812-4801-4e23-90b1-d0b0e882f531" name="Default Changelist" comment="Add delete author">
+      <change afterPath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.JsonPatch.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KevinDockx.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KevinDockx.API/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KevinDockx.API/Controllers/AuthorsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/Controllers/AuthorsController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KevinDockx.API/Controllers/CoursesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/Controllers/CoursesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KevinDockx.API/Models/CourseForCreationDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/Models/CourseForCreationDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KevinDockx.API/KevinDockx.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/KevinDockx.API.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KevinDockx.API/Profiles/CoursesProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/Profiles/CoursesProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KevinDockx.API/ValidationAttributes/CourseTitleMustBeDifferentFromDescriptionAttribute.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/ValidationAttributes/CourseTitleMustBeDifferentFromDescriptionAttribute.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KevinDockx.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/KevinDockx.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/KevinDockx.API.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/KevinDockx.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/KevinDockx.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/KevinDockx.API.exe" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/KevinDockx.API.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/KevinDockx.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/KevinDockx.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/KevinDockx.API.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/KevinDockx.API.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/KevinDockx.API.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/KevinDockx.API.runtimeconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/Properties/launchSettings.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.exe" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/KevinDockx.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/KevinDockx.API.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/KevinDockx.API.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/KevinDockx.API.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/project.packagespec.json" afterDir="false" />
@@ -53,12 +45,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/01AE4502-6E31-4460-B8F5-5B79438045B8/50/d4c468bc/IMapperBase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/26B8D1E2-4F44-4EA5-B82B-160B88995F25/24/ControllerBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/26B8D1E2-4F44-4EA5-B82B-160B88995F25/24/ControllerBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/01AE4502-6E31-4460-B8F5-5B79438045B8/95/IMapper.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -66,7 +73,10 @@
       <option value="$PROJECT_DIR$/KevinDockx.API/Models/CourseForManipulationDto.cs" />
       <option value="$PROJECT_DIR$/KevinDockx.API/Models/CourseForUpdateDto.cs" />
       <option value="$PROJECT_DIR$/KevinDockx.API/Models/CourseForCreationDto.cs" />
+      <option value="$PROJECT_DIR$/KevinDockx.API/Profiles/CoursesProfile.cs" />
+      <option value="$PROJECT_DIR$/KevinDockx.API/Startup.cs" />
       <option value="$PROJECT_DIR$/KevinDockx.API/Controllers/CoursesController.cs" />
+      <option value="$PROJECT_DIR$/KevinDockx.API/Controllers/AuthorsController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1irUZ9k1i5wdlGzgVqdZDZSCBov" />
@@ -80,8 +90,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34940413" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3495935" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -175,7 +185,20 @@
       <workItem from="1609839938583" duration="193000" />
       <workItem from="1609841144027" duration="87000" />
       <workItem from="1610358104476" duration="3316000" />
-      <workItem from="1610448077915" duration="1466000" />
+      <workItem from="1610448077915" duration="2485000" />
+      <workItem from="1610545194984" duration="3112000" />
+      <workItem from="1610552275535" duration="54000" />
+      <workItem from="1610552730267" duration="2216000" />
+      <workItem from="1610893004175" duration="3394000" />
+      <workItem from="1610973989881" duration="2157000" />
+      <workItem from="1610978367248" duration="596000" />
+      <workItem from="1611049109225" duration="1557000" />
+      <workItem from="1611051386264" duration="1000" />
+      <workItem from="1611065092812" duration="2425000" />
+      <workItem from="1611239002394" duration="595000" />
+      <workItem from="1611319830989" duration="625000" />
+      <workItem from="1611414811336" duration="1137000" />
+      <workItem from="1611562329844" duration="2036000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1602665958838</created>
@@ -184,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602665958839</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finish Put">
+      <created>1610449609588</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610449609588</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +227,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="AddPaging" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -208,23 +250,38 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Finish Put" />
+    <MESSAGE value="Add delete author" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add delete author" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/KevinDockx.API/Controllers/CoursesController.cs</url>
-          <line>77</line>
-          <properties documentPath="D:\Projects\RiderProjects\KevinDockx.API\KevinDockx.API\Controllers\CoursesController.cs" initialLine="76">
+          <line>111</line>
+          <properties documentPath="D:\Projects\RiderProjects\KevinDockx.API\KevinDockx.API\Controllers\CoursesController.cs" initialLine="107" containingFunctionPresentation="method 'PartiallyUpdateCourseForAuthor'">
             <startOffsets>
-              <option value="2707" />
+              <option value="4094" />
             </startOffsets>
             <endOffsets>
-              <option value="2760" />
+              <option value="4095" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/KevinDockx.API/Controllers/CoursesController.cs</url>
+          <line>124</line>
+          <properties documentPath="D:\Projects\RiderProjects\KevinDockx.API\KevinDockx.API\Controllers\CoursesController.cs" initialLine="124" containingFunctionPresentation="method 'PartiallyUpdateCourseForAuthor'">
+            <startOffsets>
+              <option value="4513" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4562" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
