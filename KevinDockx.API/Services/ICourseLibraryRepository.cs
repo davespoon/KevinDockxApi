@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using KevinDockx.API.Entities;
+using KevinDockx.API.Helpers;
 using KevinDockx.API.ResourceParameters;
 
 namespace KevinDockx.API.Services
@@ -13,7 +14,7 @@ namespace KevinDockx.API.Services
         void UpdateCourse(Course course);
         void DeleteCourse(Course course);
         IEnumerable<Author> GetAuthors();
-        IEnumerable<Author> GetAuthors(AuthorsResourceParameters authorsResourceParameters);
+        PagedList<Author> GetAuthors(AuthorsResourceParameters authorsResourceParameters);
         Author GetAuthor(Guid authorId);
         IEnumerable<Author> GetAuthors(IEnumerable<Guid> authorIds);
         void AddAuthor(Author author);

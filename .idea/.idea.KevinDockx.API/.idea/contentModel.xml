@@ -23,6 +23,8 @@
         <e p="Helpers" t="Include">
           <e p="ArrayModelBinder.cs" t="Include" />
           <e p="DateTimeOffsetExtensions.cs" t="Include" />
+          <e p="PagedList.cs" t="Include" />
+          <e p="ResourceUriType.cs" t="Include" />
         </e>
         <e p="KevinDockx.API.csproj" t="IncludeRecursive" />
         <e p="Migrations" t="Include">

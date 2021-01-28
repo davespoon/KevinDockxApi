@@ -13,31 +13,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9e2a812-4801-4e23-90b1-d0b0e882f531" name="Default Changelist" comment="Add delete author">
-      <change afterPath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.JsonPatch.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll" afterDir="false" />
+    <list default="true" id="e9e2a812-4801-4e23-90b1-d0b0e882f531" name="Default Changelist" comment="Add paging step 1">
+      <change afterPath="$PROJECT_DIR$/KevinDockx.API/Helpers/PagedList.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KevinDockx.API/Helpers/ResourceUriType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.KevinDockx.API/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KevinDockx.API/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KevinDockx.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.KevinDockx.API/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KevinDockx.API/Controllers/AuthorsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/Controllers/AuthorsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KevinDockx.API/Controllers/CoursesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/Controllers/CoursesController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KevinDockx.API/KevinDockx.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/KevinDockx.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KevinDockx.API/Profiles/CoursesProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/Profiles/CoursesProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KevinDockx.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/KevinDockx.API.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/KevinDockx.API.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KevinDockx.API/ResourceParameters/AuthorsResourceParameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/ResourceParameters/AuthorsResourceParameters.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KevinDockx.API/Services/CourseLibraryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/Services/CourseLibraryRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KevinDockx.API/Services/ICourseLibraryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/Services/ICourseLibraryRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/KevinDockx.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/KevinDockx.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/KevinDockx.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/bin/Debug/netcoreapp3.1/KevinDockx.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/KevinDockx.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/KevinDockx.API.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/KevinDockx.API.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KevinDockx.API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/KevinDockx.API/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +51,11 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2BC5ED24-0D5C-402C-8B6A-BD14FFCEE267/3DC/List.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/KevinDockx.API/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/01AE4502-6E31-4460-B8F5-5B79438045B8/50/d4c468bc/IMapperBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/26B8D1E2-4F44-4EA5-B82B-160B88995F25/24/ControllerBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/DF06744C-04ED-4CE3-8BEB-869230243C29/8/Queryable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/01AE4502-6E31-4460-B8F5-5B79438045B8/95/IMapper.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -76,6 +67,11 @@
       <option value="$PROJECT_DIR$/KevinDockx.API/Profiles/CoursesProfile.cs" />
       <option value="$PROJECT_DIR$/KevinDockx.API/Startup.cs" />
       <option value="$PROJECT_DIR$/KevinDockx.API/Controllers/CoursesController.cs" />
+      <option value="$PROJECT_DIR$/KevinDockx.API/ResourceParameters/AuthorsResourceParameters.cs" />
+      <option value="$PROJECT_DIR$/KevinDockx.API/Helpers/PagedList.cs" />
+      <option value="$PROJECT_DIR$/KevinDockx.API/Services/ICourseLibraryRepository.cs" />
+      <option value="$PROJECT_DIR$/KevinDockx.API/Services/CourseLibraryRepository.cs" />
+      <option value="$PROJECT_DIR$/KevinDockx.API/Helpers/ResourceUriType.cs" />
       <option value="$PROJECT_DIR$/KevinDockx.API/Controllers/AuthorsController.cs" />
     </changedPaths>
   </component>
@@ -198,7 +194,10 @@
       <workItem from="1611239002394" duration="595000" />
       <workItem from="1611319830989" duration="625000" />
       <workItem from="1611414811336" duration="1137000" />
-      <workItem from="1611562329844" duration="2036000" />
+      <workItem from="1611562329844" duration="8273000" />
+      <workItem from="1611655591297" duration="3062000" />
+      <workItem from="1611665447958" duration="1000" />
+      <workItem from="1611820421264" duration="1542000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1602665958838</created>
@@ -214,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610449609588</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add paging step 1">
+      <created>1611565702138</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611565702139</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +258,8 @@
     <MESSAGE value="Init" />
     <MESSAGE value="Finish Put" />
     <MESSAGE value="Add delete author" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add delete author" />
+    <MESSAGE value="Add paging step 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add paging step 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -282,6 +289,19 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/KevinDockx.API/Helpers/PagedList.cs</url>
+          <line>17</line>
+          <properties documentPath="D:\Projects\RiderProjects\KevinDockx.API\KevinDockx.API\Helpers\PagedList.cs" initialLine="16" containingFunctionPresentation="constructor 'PagedList'">
+            <startOffsets>
+              <option value="556" />
+            </startOffsets>
+            <endOffsets>
+              <option value="557" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
