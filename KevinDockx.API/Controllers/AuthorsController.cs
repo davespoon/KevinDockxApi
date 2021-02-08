@@ -17,12 +17,16 @@ namespace KevinDockx.API.Controllers
     {
         private readonly ICourseLibraryRepository _courseLibraryRepository;
         private IMapper _mapper;
+        private readonly IPropertyMappingService _propertyMappingService;
 
-        public AuthorsController(ICourseLibraryRepository courseLibraryRepository, IMapper mapper)
+        public AuthorsController(ICourseLibraryRepository courseLibraryRepository, IMapper mapper,
+            IPropertyMappingService propertyMappingService)
         {
-            _courseLibraryRepository = courseLibraryRepository ??
-                                       throw new ArgumentNullException(nameof(courseLibraryRepository));
+            _courseLibraryRepository =
+                courseLibraryRepository ?? throw new ArgumentNullException(nameof(courseLibraryRepository));
             _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
+            _propertyMappingService =
+                propertyMappingService ?? throw new ArgumentNullException(nameof(propertyMappingService));
         }
 
         [HttpGet(Name = "GetAuthors")]
@@ -30,6 +34,11 @@ namespace KevinDockx.API.Controllers
         public ActionResult<IEnumerable<AuthorDto>> GetAuthors(
             [FromQuery] AuthorsResourceParameters authorsResourceParameters)
         {
+            if (!_propertyMappingService.ValidMappingExistsFor<AuthorDto, Author>(authorsResourceParameters.OrderBy))
+            {
+                return BadRequest();
+            }
+
             var authorsFromRepo = _courseLibraryRepository.GetAuthors(authorsResourceParameters);
 
             var previosPageLink = authorsFromRepo.HasPrevious
@@ -48,7 +57,7 @@ namespace KevinDockx.API.Controllers
                 previosPageLink,
                 nextPageLink
             };
-            
+
             Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(paginationMetadata));
 
             return Ok(_mapper.Map<IEnumerable<AuthorDto>>(authorsFromRepo));
@@ -111,6 +120,7 @@ namespace KevinDockx.API.Controllers
                 case ResourceUriType.PreviousPage:
                     return Url.Link("GetAuthors", new
                     {
+                        orderBY = authorsResourceParameters.OrderBy,
                         pageNumber = authorsResourceParameters.PageNumber - 1,
                         pageSize = authorsResourceParameters.PageSize,
                         mainCategory = authorsResourceParameters.MainCategory,
@@ -119,6 +129,7 @@ namespace KevinDockx.API.Controllers
                 case ResourceUriType.NextPage:
                     return Url.Link("GetAuthors", new
                     {
+                        orderBY = authorsResourceParameters.OrderBy,
                         pageNumber = authorsResourceParameters.PageNumber + 1,
                         pageSize = authorsResourceParameters.PageSize,
                         mainCategory = authorsResourceParameters.MainCategory,
@@ -127,6 +138,7 @@ namespace KevinDockx.API.Controllers
                 default:
                     return Url.Link("GetAuthors", new
                     {
+                        orderBY = authorsResourceParameters.OrderBy,
                         pageNumber = authorsResourceParameters.PageNumber,
                         pageSize = authorsResourceParameters.PageSize,
                         mainCategory = authorsResourceParameters.MainCategory,

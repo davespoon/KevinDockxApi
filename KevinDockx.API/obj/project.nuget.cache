@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GEUSeB6TycuxDZn3RCf9FWWNuKjbH5H+eDj8awhV7JO81TV19/vem7fJQKfeaWUc6sQANxM4xdUaSJ9v37lWWg==",
+  "dgSpecHash": "JXVlFj2dGp80WdETJx5Peda2skCE/rQHRjw8yXSQ7IegwOa4xlXttk/CiWL9E3n/FDvdmEdtHmBerBhp2lGYlw==",
   "success": true,
   "projectFilePath": "D:\\Projects\\RiderProjects\\KevinDockx.API\\KevinDockx.API\\KevinDockx.API.csproj",
   "expectedPackageFiles": [
@@ -61,6 +61,7 @@
     "C:\\Users\\Grin\\.nuget\\packages\\system.io.filesystem\\4.3.0\\system.io.filesystem.4.3.0.nupkg.sha512",
     "C:\\Users\\Grin\\.nuget\\packages\\system.io.filesystem.primitives\\4.3.0\\system.io.filesystem.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Grin\\.nuget\\packages\\system.linq\\4.3.0\\system.linq.4.3.0.nupkg.sha512",
+    "C:\\Users\\Grin\\.nuget\\packages\\system.linq.dynamic.core\\1.2.7\\system.linq.dynamic.core.1.2.7.nupkg.sha512",
     "C:\\Users\\Grin\\.nuget\\packages\\system.net.nameresolution\\4.3.0\\system.net.nameresolution.4.3.0.nupkg.sha512",
     "C:\\Users\\Grin\\.nuget\\packages\\system.net.primitives\\4.3.0\\system.net.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Grin\\.nuget\\packages\\system.private.datacontractserialization\\4.3.0\\system.private.datacontractserialization.4.3.0.nupkg.sha512",

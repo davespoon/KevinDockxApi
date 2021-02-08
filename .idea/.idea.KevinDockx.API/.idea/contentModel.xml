@@ -23,6 +23,7 @@
         <e p="Helpers" t="Include">
           <e p="ArrayModelBinder.cs" t="Include" />
           <e p="DateTimeOffsetExtensions.cs" t="Include" />
+          <e p="IQueryeableExtensions.cs" t="Include" />
           <e p="PagedList.cs" t="Include" />
           <e p="ResourceUriType.cs" t="Include" />
         </e>
@@ -61,6 +62,11 @@
         <e p="Services" t="Include">
           <e p="CourseLibraryRepository.cs" t="Include" />
           <e p="ICourseLibraryRepository.cs" t="Include" />
+          <e p="IPropertyMapping.cs" t="Include" />
+          <e p="IPropertyMappingService.cs" t="Include" />
+          <e p="PropertyMapping.cs" t="Include" />
+          <e p="PropertyMappingService.cs" t="Include" />
+          <e p="PropertyMappingValue.cs" t="Include" />
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="ValidationAttributes" t="Include">
