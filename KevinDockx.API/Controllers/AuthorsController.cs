@@ -31,7 +31,7 @@ namespace KevinDockx.API.Controllers
 
         [HttpGet(Name = "GetAuthors")]
         [HttpHead]
-        public ActionResult<IEnumerable<AuthorDto>> GetAuthors(
+        public IActionResult GetAuthors(
             [FromQuery] AuthorsResourceParameters authorsResourceParameters)
         {
             if (!_propertyMappingService.ValidMappingExistsFor<AuthorDto, Author>(authorsResourceParameters.OrderBy))
@@ -60,7 +60,7 @@ namespace KevinDockx.API.Controllers
 
             Response.Headers.Add("X-Pagination", JsonSerializer.Serialize(paginationMetadata));
 
-            return Ok(_mapper.Map<IEnumerable<AuthorDto>>(authorsFromRepo));
+            return Ok(_mapper.Map<IEnumerable<AuthorDto>>(authorsFromRepo).ShapeData(authorsResourceParameters.Fields));
         }
 
         [HttpGet("{authorId:guid}", Name = "GetAuthor")]
@@ -120,6 +120,7 @@ namespace KevinDockx.API.Controllers
                 case ResourceUriType.PreviousPage:
                     return Url.Link("GetAuthors", new
                     {
+                        fields = authorsResourceParameters.Fields,
                         orderBY = authorsResourceParameters.OrderBy,
                         pageNumber = authorsResourceParameters.PageNumber - 1,
                         pageSize = authorsResourceParameters.PageSize,
@@ -129,6 +130,7 @@ namespace KevinDockx.API.Controllers
                 case ResourceUriType.NextPage:
                     return Url.Link("GetAuthors", new
                     {
+                        fields = authorsResourceParameters.Fields,
                         orderBY = authorsResourceParameters.OrderBy,
                         pageNumber = authorsResourceParameters.PageNumber + 1,
                         pageSize = authorsResourceParameters.PageSize,
@@ -138,6 +140,7 @@ namespace KevinDockx.API.Controllers
                 default:
                     return Url.Link("GetAuthors", new
                     {
+                        fields = authorsResourceParameters.Fields,
                         orderBY = authorsResourceParameters.OrderBy,
                         pageNumber = authorsResourceParameters.PageNumber,
                         pageSize = authorsResourceParameters.PageSize,
